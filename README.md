@@ -5,7 +5,7 @@
 ### Status
 [![Build Status](https://github.com/ThirdpartyLabs/ServiceBus/actions/workflows/maven.yml/badge.svg)](https://github.com/ThirdpartyLabs/ServiceBus/blob/main/.github/workflows/maven.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/com.thirdpartylabs/servicebus?color=45bf17)](https://search.maven.org/artifact/com.thirdpartylabs/servicebus)
-<!---[![Javadoc](https://javadoc.io/badge/com.thirdpartylabs/servicebus.svg)](http://www.javadoc.io/doc/com.thirdpartylabs/servicebus)--->
+[![Javadoc](https://javadoc.io/badge/com.thirdpartylabs/servicebus.svg)](http://www.javadoc.io/doc/com.thirdpartylabs/servicebus)
 
 ## Use Case
 In most applications that are composed of multiple decoupled or loosely coupled components (a typical user interface, for example), 
