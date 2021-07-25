@@ -1,6 +1,6 @@
 # Overview
 
-**ServiceBus is a light-weight Java library that enables the communication between decoupled components via events, commands, and request-response.**
+**ServiceBus is a light-weight Java library that enables communication between decoupled components via events, commands, and request-response.**
 
 ### Status
 [![Build Status](https://github.com/ThirdpartyLabs/ServiceBus/actions/workflows/maven.yml/badge.svg)](https://github.com/ThirdpartyLabs/ServiceBus/blob/main/.github/workflows/maven.yml)
@@ -11,7 +11,7 @@
 In most applications that are composed of multiple decoupled or loosely coupled components (a typical user interface, for example), 
 communication between those components is a necessity. Communication needs can usually be broken down into three categories:
 
-* **Events** - Something happens in a component that other factes of the application need to know about
+* **Events** - Something happens in a component that other facets of the application need to know about
 * **Commands** - A component needs to initiate an action somewhere else in the application, possibly with parameters 
 * **Request-Response** - A component needs data from a provider somewhere within the application
 
