@@ -15,7 +15,7 @@ communication between those components is a necessity. Communication needs can u
 * **Commands** - A component needs to initiate an action somewhere else in the application, possibly with parameters 
 * **Request-Response** - A component needs data from a provider somewhere within the application
 
-Without a well-defined and decoupled way to facilitate these communications, your code quickly can quickly become a jumbled mess of 
+Without a well-defined and decoupled way to facilitate these communications, your code can quickly become a jumbled mess of 
 references. ServiceBus is a simple implementation of an event bus, command bus, and request-response bus, all wrapped up 
 in one easy-to-use package, with more advanced capabilities available if you need them. 
 ### Events
