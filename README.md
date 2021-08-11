@@ -36,7 +36,7 @@ EventBus.getInstance().listenFor(AppEvent.class, e -> System.out.println(e.messa
 
 // Emit an event
 AppEvent event = new AppEvent("Something happened");
-ServiceBus.getInstance().emit(event);
+EventBus.getInstance().emit(event);
 ```
 ### Commands
 ```java
@@ -123,4 +123,4 @@ Requires Java 9 (JDK 1.9)+
 
 ## License
 
-XMLScalpel is licensed under [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) license.
+ServiceBus is licensed under [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) license.
